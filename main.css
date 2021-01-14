@@ -1,0 +1,47 @@
+  * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    .wrap {
+      position: relative;
+      min-height: 100vh;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .wrap>* {
+      grid-column: 1;
+      grid-row: 1;
+    }
+
+
+    .face {
+      position: absolute;
+    }
+
+body {
+  background-image: url("topography.svg"),
+    linear-gradient(110deg, #f93d66, #6d47d9);
+  background-size: 340px, auto;
+  min-height: calc(100vh - 100px);
+  margin: 50px;
+  /* background: white; */
+  background-attachment: fixed;
+  letter-spacing: -1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 5px 0;
+}
+
+
