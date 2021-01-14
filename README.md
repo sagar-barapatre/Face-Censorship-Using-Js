@@ -11,4 +11,3 @@ Currently this only works on Chrome and you have to enable `Experimental Web pla
 
 --- 
 
-### Live here https://facedetector-censorship.netlify.app/
